@@ -1,2 +1,2 @@
 release: Python app.py
-web:gunicorn app.py
+web:gunicorn wsgi:app
