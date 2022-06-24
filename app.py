@@ -6,8 +6,9 @@ import os
 from flask import Flask, render_template, request, redirect, url_for, abort, \
     send_from_directory
 from werkzeug.utils import secure_filename
+import serial
 
-
+ser = serial.Serial('\\\\.\\COM3',8000)
 app = Flask(__name__)
 file_manager = File_Manager()
 
