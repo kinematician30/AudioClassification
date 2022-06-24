@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "c:\\Users\\kboys\\anaconda3\\envs\\tensorflow\\python.exe"
+    "python.pythonPath": "c:\\Users\\kboys\\anaconda3\\envs\\tensorflow\\python.exe",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0F3143",
+        "titleBar.activeBackground": "#15445E",
+        "titleBar.activeForeground": "#F8FCFD"
+    }
 }
